@@ -4,14 +4,12 @@ import {
   CheckCircle2,
   Clock,
   Mail,
-  MessageSquare,
   NotebookPen,
   Search,
   Sparkles,
   Timer,
   Zap,
 } from "lucide-react";
-import { PageHeader } from "@/components/app/page-header";
 import { StatCard } from "@/components/app/stat-card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -239,10 +237,6 @@ function Dashboard() {
           </Card>
         </div>
       </div>
-
-      <p className="sr-only">
-        <MessageSquare aria-hidden="true" />
-      </p>
     </div>
   );
 }
