@@ -63,16 +63,16 @@
   --color-success-foreground: var(--success-foreground);
   --color-warning: var(--warning);
   --color-warning-foreground: var(--warning-foreground);
-  --font-sans: var(--font-body);
-  --font-display: var(--font-display);
+  --font-sans: var(--font-base);
+  --font-display: var(--font-heading);
   --shadow-card: var(--shadow-card);
   --shadow-float: var(--shadow-float);
 }
 
 :root {
   --radius: 0.875rem;
-  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-base: "Inter", ui-sans-serif, system-ui, sans-serif;
   --background: oklch(0.976 0.004 264);
   --foreground: oklch(0.21 0.035 265);
   --card: oklch(1 0 0);
@@ -157,12 +157,12 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
-    font-family: var(--font-body);
+    font-family: var(--font-base);
     -webkit-font-smoothing: antialiased;
   }
 
   h1, h2, h3, h4 {
-    font-family: var(--font-display);
+    font-family: var(--font-heading);
     letter-spacing: -0.015em;
   }
 }
